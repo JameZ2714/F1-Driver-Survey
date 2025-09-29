@@ -18,6 +18,13 @@
                 <div class="questions menu">
                     <!-- Question 1 -->
                     <div class="Q1 Q">
+                        <p>Give your name:</p>
+                        <label for="Name"></label>
+                        <input type="text" name="Name" id="Name">
+                    </div>
+
+                    <div class="Q2 Q">
+                        <!-- Question 2 -->
                         <p>Which team is your favorite?</p>
                         <!-- Ferrari -->
                         <input type="radio" id="Ferrari" name="team" value="Ferrari">
@@ -33,18 +40,42 @@
                         <label for="Mclaren">Mclaren</label><br>
                     </div>
 
-                    <div class="Q2 Q">
-                        <!-- Question 2 -->
+                    <div class="Q3 Q">
+                        <!-- Question 3 -->
                         <p>What is your favorite driver number?</p>
                         <label for="Number"></label>
                         <input type="number" id="Number">
                     </div>
 
-                    <div class="Q3 Q">
-                        <!-- Question 3 -->
-                        <p>Give your name:</p>
-                        <label for="Name"></label>
-                        <input type="text" name="Name" id="Name">
+                    <div class="Q4 Q">
+                        <!-- Question 4 -->
+                         <p>Have they won a WDC?</p>
+                        <!-- Yes -->
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="Yes" id="WDC"><br>
+                        <!-- No -->
+                         <label for="No">No</label>
+                        <input type="radio" name="No" id="WDC">
+                    </div>
+
+                    <div class="Q5 Q">
+                        <!-- Question 5 -->
+                        <p>What country are they from?</p>
+                        <!-- Netherlands -->
+                        <label for="Netherlands">Netherlands</label>
+                        <input type="radio" name="Netherlands" id="Country"><br>
+                        <!-- Great Britain -->
+                        <label for="Great-Britain">Great Britain</label>
+                        <input type="radio" name="Great-Britain" id="Country"><br>
+                        <!-- Monaco -->
+                        <label for="Monaco">Monaco</label>
+                        <input type="radio" name="Monaco" id="Country"><br>
+                        <!-- Italy -->
+                        <label for="Italy">Italy</label>
+                        <input type="radio" name="Italy" id="Country"><br>
+                        <!-- Australia -->
+                        <label for="Italy">Australia</label>
+                        <input type="radio" name="Australia" id="Country">
                     </div>
 
                     <br>
@@ -53,6 +84,7 @@
                     <button type="submit" onclick="saveToLocalStorage()">Submit Results</button>
                 </div>
 
+                <!-- Images for what they can use in questions -->
                 <div class="content">
                     <img src="/image/F1Teams.webp" alt="F1 Teams" class="team">
 
@@ -63,7 +95,7 @@
             </div>
 
         <footer>
-            <p>By: James Miranda</p>
+            
         </footer>
 
     </body>

@@ -13,8 +13,11 @@
     border-color: green;
 }
 
-body {
-    text-align: center;
+@media screen {
+    body{
+        max-width: auto;
+        text-align: center;
+    }
 }
 
 img {
