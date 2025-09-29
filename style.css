@@ -1,0 +1,44 @@
+.head {
+    text-align: center;
+}
+
+.Q {
+    border-left: 6px solid red;
+    text-align: left;
+    position: left;
+    padding-left: 5px;
+}
+
+.Q:hover {
+    border-color: green;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 450px;
+    padding: 10px;
+}
+
+.team {
+    position: left;
+    padding-bottom: 310px;
+}
+
+.number {
+    position: right;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    background-color: shadow;
+    padding: 5px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>
+            Which F1 driver are You?
+        </title>
+    </head>
+
+    <body>
+        <div class=head>
+            <h1>Find your 2025 F1 driver!</h1>
+            <h3>Fill out the following questions so we can guess what driver your thinking about.</h3>
+        </div>
+
+            <div class="container">
+                <div class="questions menu">
+                    <!-- Question 1 -->
+                    <div class="Q1 Q">
+                        <p>Which team is your favorite?</p>
+                        <!-- Ferrari -->
+                        <input type="radio" id="Ferrari" name="team" value="Ferrari">
+                        <label for="Ferrari">Ferrari</label><br>
+                        <!-- RedBull -->
+                        <input type="radio" id="RedBull" name="team" value="RedBull">
+                        <label for="RedBull">RedBull</label><br>
+                        <!-- Mercedes -->
+                        <input type="radio" id="Mercedes" name="team" value="Mercedes">
+                        <label for="Mercedes">Mercedes</label><br>
+                        <!-- Mclaren -->
+                        <input type="radio" id="Mclaren" name="team" value="Mclaren">
+                        <label for="Mclaren">Mclaren</label><br>
+                    </div>
+
+                    <div class="Q2 Q">
+                        <!-- Question 2 -->
+                        <p>What is your favorite driver number?</p>
+                        <label for="Number"></label>
+                        <input type="number" id="Number">
+                    </div>
+
+                    <div class="Q3 Q">
+                        <!-- Question 3 -->
+                        <p>Give your name:</p>
+                        <label for="Name"></label>
+                        <input type="text" name="Name" id="Name">
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <button type="submit" onclick="saveToLocalStorage()">Submit Results</button>
+                </div>
+
+                <div class="content">
+                    <img src="/image/F1Teams.webp" alt="F1 Teams" class="team">
+
+                    <img src="/image/F1 Car Numbers.jpg" alt="F1 Numbers" class="number">
+                </div>
+                
+                
+            </div>
+
+        <footer>
+            <p>By: James Miranda</p>
+        </footer>
+
+    </body>
+
+    
+</html>
